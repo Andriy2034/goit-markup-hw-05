@@ -592,6 +592,7 @@ h6 {
 .footer-button {
   background-color: #4d5ae5;
   border-radius: 4px;
+  border: 0;
   padding: 8px 24px;
   width: 165px;
   height: 40px;
@@ -694,13 +695,14 @@ h6 {
   fill: #fff;
 }
 
-.icon-modal .modal-text {
+.modal-text {
   letter-spacing: 0.02em;
   font-weight: 500;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.5;
   font-size: 16px;
   margin-bottom: 16px;
+  color: #2e2f42;
 }
 
 .modal-form {
@@ -829,7 +831,7 @@ h6 {
 }
 
 .modal-send {
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   font-weight: 500;
@@ -838,6 +840,7 @@ h6 {
   background-color: #4d5ae5;
   padding: 16px 32px;
   border-radius: 4px;
+  border: 0;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
