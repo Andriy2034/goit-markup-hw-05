@@ -682,9 +682,13 @@ h6 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon-close-modal:hover,
+.icon-close-modal:focus {
+  background-color: #404bbf;
+}
+
 .icon-close-modal:hover .icon-modal,
 .icon-close-modal:focus .icon-modal {
-  background-color: #404bbf;
   fill: #fff;
 }
 
